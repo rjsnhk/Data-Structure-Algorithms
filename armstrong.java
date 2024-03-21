@@ -31,6 +31,7 @@ public class armstrong {
     while (n != 0) {
       temp = n % 10;
       sum += temp * temp * temp;
+      //sum+=Math.pow(temp,digCount);
       n /= 10;
     }
     
